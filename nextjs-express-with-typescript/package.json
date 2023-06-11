@@ -1,0 +1,28 @@
+{
+  "name": "next-et",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node --project tsconfig.server.json server/index.ts",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "next": "^13.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.0",
+    "@types/react": "^18.2.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
